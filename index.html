@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="conversion-input">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <div class="row">
+            <input id="input" type="text" placeholder="0">
+        </div>
+        <div class="row">
+            <button id="convert-btn">Convert</button>
+        </div>
+    </div>
+    <div class="conversion-output">
+        <div class="conversion-container">
+            <h3>Length (Meter/Feet)</h3>
+            <p id="length-el">0 meters = 0.000 feet | 0 feet = 0.000 meters
+        </div>
+        <div class="conversion-container">
+            <h3>Volume (Liters/Gallons)</h3>
+            <p id="volume-el">0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+        </div>
+        <div class="conversion-container">
+            <h3>Mass (Kilograms/Pounds)</h3>
+            <p id="mass-el">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
